@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" fill="none">
+  <defs>
+    <linearGradient id="grad-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5DC6FF"/>
+      <stop offset="50%" stop-color="#3993FF"/>
+      <stop offset="100%" stop-color="#7B63FF"/>
+    </linearGradient>
+  </defs>
+  <!-- Infinity mark -->
+  <path d="M16 30c0-8 6-16 14-16s14 8 14 16-6 16-14 16S16 38 16 30zm14 0c0-8 6-16 14-16s14 8 14 16-6 16-14 16S30 38 30 30z" stroke="url(#grad-light)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- SIBI text -->
+  <text x="72" y="40" font-family="Quicksand, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF" letter-spacing="2">SIBI</text>
+</svg>

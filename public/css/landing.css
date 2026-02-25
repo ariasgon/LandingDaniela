@@ -6,21 +6,22 @@
 }
 
 :root {
-  --primary: #4F46E5;
-  --primary-dark: #3730A3;
-  --primary-light: #818CF8;
-  --primary-bg: #EEF2FF;
-  --accent: #06B6D4;
-  --text: #1E293B;
-  --text-light: #64748B;
+  --primary: #3993FF;
+  --primary-dark: #5C3DFD;
+  --primary-light: #7B63FF;
+  --primary-bg: #EDF4FF;
+  --accent: #5DC6FF;
+  --navy: #0B103E;
+  --text: #0B103E;
+  --text-light: #4A5078;
   --white: #FFFFFF;
-  --gray-50: #F8FAFC;
-  --gray-100: #F1F5F9;
-  --gray-200: #E2E8F0;
-  --gray-300: #CBD5E1;
-  --shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
-  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
-  --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1);
+  --gray-50: #F5F7FC;
+  --gray-100: #EBEEF8;
+  --gray-200: #D4D9EB;
+  --gray-300: #A8B0CC;
+  --shadow: 0 4px 6px -1px rgba(11,16,62,0.08), 0 2px 4px -2px rgba(11,16,62,0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(11,16,62,0.1), 0 4px 6px -4px rgba(11,16,62,0.08);
+  --shadow-xl: 0 20px 25px -5px rgba(11,16,62,0.12), 0 8px 10px -6px rgba(11,16,62,0.08);
   --radius: 12px;
   --radius-lg: 20px;
 }
@@ -30,10 +31,14 @@ html {
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Maven Pro', -apple-system, BlinkMacSystemFont, sans-serif;
   color: var(--text);
   line-height: 1.6;
   overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .logo {
+  font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .container {
@@ -62,10 +67,15 @@ body {
 }
 
 .logo {
-  font-size: 28px;
-  font-weight: 900;
-  color: var(--primary);
-  letter-spacing: -1px;
+  display: block;
+  height: 40px;
+  width: auto;
+}
+
+.logo img {
+  height: 100%;
+  width: auto;
+  display: block;
 }
 
 .nav-cta {
@@ -165,7 +175,7 @@ body {
 
 /* Hero */
 .hero {
-  background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 50%, #06B6D4 100%);
+  background: linear-gradient(135deg, #0B103E 0%, #1a1a5e 40%, #5C3DFD 100%);
   padding: 140px 0 100px;
   position: relative;
   overflow: hidden;
@@ -248,7 +258,7 @@ body {
 .illustration-label {
   font-size: 24px;
   font-weight: 800;
-  color: var(--primary);
+  color: var(--primary-dark);
   margin-bottom: 8px;
 }
 
@@ -486,7 +496,7 @@ body {
 /* Lead Capture */
 .lead-capture {
   padding: 100px 0;
-  background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%);
+  background: linear-gradient(135deg, #0B103E 0%, #5C3DFD 100%);
   color: var(--white);
 }
 
@@ -616,7 +626,7 @@ body {
 
 /* Footer */
 .footer {
-  background: var(--text);
+  background: var(--navy);
   color: var(--white);
   padding: 50px 0 30px;
 }

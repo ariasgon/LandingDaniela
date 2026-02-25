@@ -246,7 +246,8 @@ h1, h2, h3, h4, h5, h6, .logo {
   width: 100%;
   max-width: 420px;
   height: auto;
-  drop-shadow: 0 0 40px rgba(93, 198, 255, 0.3);
+  border-radius: var(--radius-lg);
+  filter: drop-shadow(0 0 40px rgba(93, 198, 255, 0.3));
 }
 
 @keyframes float {
@@ -624,6 +625,10 @@ h1, h2, h3, h4, h5, h6, .logo {
 .footer-brand .logo {
   color: var(--white);
   margin-bottom: 8px;
+}
+
+.footer-brand .logo-footer img {
+  filter: brightness(0) invert(1);
 }
 
 .footer-brand p {

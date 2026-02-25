@@ -1,13 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" fill="none">
   <defs>
-    <linearGradient id="grad-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="sGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#5DC6FF"/>
-      <stop offset="50%" stop-color="#3993FF"/>
+      <stop offset="40%" stop-color="#3993FF"/>
+      <stop offset="70%" stop-color="#5C3DFD"/>
       <stop offset="100%" stop-color="#7B63FF"/>
     </linearGradient>
   </defs>
-  <!-- Infinity mark -->
-  <path d="M16 30c0-8 6-16 14-16s14 8 14 16-6 16-14 16S16 38 16 30zm14 0c0-8 6-16 14-16s14 8 14 16-6 16-14 16S30 38 30 30z" stroke="url(#grad-dark)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- SIBI text -->
-  <text x="72" y="40" font-family="Quicksand, sans-serif" font-size="32" font-weight="700" fill="#0B103E" letter-spacing="2">SIBI</text>
+  <!-- Stylized S mark -->
+  <path d="M32 8 C48 8, 52 20, 40 28 C28 36, 20 40, 20 48 C20 60, 32 68, 44 60 C50 56, 48 48, 40 48 C32 48, 28 52, 32 58" stroke="url(#sGrad)" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M20 18 C20 10, 28 4, 36 8" stroke="url(#sGrad)" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <!-- sibi text -->
+  <text x="68" y="48" font-family="Quicksand, sans-serif" font-size="38" font-weight="700" fill="#0B103E" letter-spacing="3">sibi</text>
 </svg>

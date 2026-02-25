@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none">
+  <defs>
+    <linearGradient id="sGradH" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5DC6FF"/>
+      <stop offset="35%" stop-color="#3993FF"/>
+      <stop offset="65%" stop-color="#5C3DFD"/>
+      <stop offset="100%" stop-color="#7B63FF"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Large stylized S mark with glow -->
+  <g filter="url(#glow)">
+    <path d="M100 20 C140 20, 148 50, 125 70 C102 90, 85 100, 85 120 C85 145, 105 165, 130 152 C145 144, 140 128, 125 128 C110 128, 104 136, 110 148" stroke="url(#sGradH)" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M80 40 C80 25, 92 15, 106 20" stroke="url(#sGradH)" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.5"/>
+  </g>
+  <!-- sibi text large -->
+  <text x="160" y="110" font-family="Quicksand, sans-serif" font-size="64" font-weight="700" fill="#FFFFFF" letter-spacing="5">sibi</text>
+  <!-- Tagline -->
+  <text x="160" y="140" font-family="Maven Pro, sans-serif" font-size="16" fill="rgba(255,255,255,0.7)" letter-spacing="1">¡Y que tu negocio fluya!</text>
+</svg>

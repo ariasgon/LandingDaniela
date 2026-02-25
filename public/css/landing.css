@@ -235,36 +235,18 @@ h1, h2, h3, h4, h5, h6, .logo {
 .hero-visual {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.hero-illustration {
-  position: relative;
-}
-
-.illustration-card {
-  background: var(--white);
-  border-radius: var(--radius-lg);
-  padding: 40px;
-  text-align: center;
-  box-shadow: var(--shadow-xl);
+.hero-logo {
   animation: float 3s ease-in-out infinite;
 }
 
-.illustration-icon {
-  font-size: 80px;
-  margin-bottom: 16px;
-}
-
-.illustration-label {
-  font-size: 24px;
-  font-weight: 800;
-  color: var(--primary-dark);
-  margin-bottom: 8px;
-}
-
-.illustration-desc {
-  color: var(--text-light);
-  font-size: 16px;
+.hero-logo img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  drop-shadow: 0 0 40px rgba(93, 198, 255, 0.3);
 }
 
 @keyframes float {
